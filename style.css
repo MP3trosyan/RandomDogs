@@ -104,7 +104,7 @@ body {
 }
 
 .container ol li {
-    border-bottom: 2px solid #9A3B3B;
+    box-shadow: 0 2px #9A3B3B;
     text-align: center;
     cursor: pointer;
     transition: 0.5s ease-in;
@@ -116,6 +116,12 @@ body {
     border-radius: 10px;
     color: #F2ECBE;
     transition: color 0.5s ease-in-out;
+}
+
+.container ol li:active {
+    box-shadow: 0 1px #9A3B3B;
+    position: relative;
+    top: 2px;
 }
 
 /* Popup 2 */
